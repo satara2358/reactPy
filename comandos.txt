@@ -1,0 +1,4 @@
+pip3 install "reactpy[fastapi]"
+pip3 install "uvicorn[standard]"
+
+uvicorn main:app --reload
